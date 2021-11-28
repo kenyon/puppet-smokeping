@@ -32,6 +32,11 @@ class smokeping::install {
     recurse => true,
   }
 
+  file { "${smokeping::path_datadir}/__sortercache":
+    group   => $smokeping::daemon_group,
+    recurse => true,
+  }
+
   if $smokeping::mode =~ /(master|standalone)/ {
     file { $smokeping::path_imgcache:
       ensure  => directory,
