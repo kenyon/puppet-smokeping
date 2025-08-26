@@ -4,7 +4,24 @@ All notable changes to this project will be documented in this file.
 Each new release typically also includes the latest modulesync defaults.
 These should not affect the functionality of the module.
 
-## [v8.0.0](https://github.com/voxpupuli/puppet-smokeping/tree/v8.0.0) (2025-04-09)
+## [v9.0.0](https://github.com/voxpupuli/puppet-smokeping/tree/v9.0.0) (2025-08-26)
+
+[Full Changelog](https://github.com/voxpupuli/puppet-smokeping/compare/v8.0.0...v9.0.0)
+
+**Breaking changes:**
+
+- Drop support for EOL EL 7, CentOS 8; add support for EL 9, 10 [\#192](https://github.com/voxpupuli/puppet-smokeping/pull/192) ([kenyon](https://github.com/kenyon))
+- Drop support for EOL Debian 10 and Ubuntu 20.04 [\#189](https://github.com/voxpupuli/puppet-smokeping/pull/189) ([kenyon](https://github.com/kenyon))
+- Drop puppet, update openvox minimum version to 8.19 [\#186](https://github.com/voxpupuli/puppet-smokeping/pull/186) ([TheMeier](https://github.com/TheMeier))
+
+**Implemented enhancements:**
+
+- Add support for Debian 13 [\#193](https://github.com/voxpupuli/puppet-smokeping/pull/193) ([kenyon](https://github.com/kenyon))
+- Add support for Ubuntu 24.04 [\#191](https://github.com/voxpupuli/puppet-smokeping/pull/191) ([kenyon](https://github.com/kenyon))
+- Allow puppet/systemd 9.x [\#190](https://github.com/voxpupuli/puppet-smokeping/pull/190) ([kenyon](https://github.com/kenyon))
+- Add support for Debian 12 [\#188](https://github.com/voxpupuli/puppet-smokeping/pull/188) ([smortex](https://github.com/smortex))
+
+## [v8.0.0](https://github.com/voxpupuli/puppet-smokeping/tree/v8.0.0) (2025-04-23)
 
 [Full Changelog](https://github.com/voxpupuli/puppet-smokeping/compare/v7.0.0...v8.0.0)
 
